@@ -1,0 +1,25 @@
+{
+  "name": "ethicals7s-redirect-hunter",
+  "version": "1.0.0",
+  "description": "A simple Node.js CLI tool to scan URLs for open redirect vulnerabilities, inspired by bug bounty hunting. Built with Axios for ethical testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethicals7s/ethicals7s-redirect-hunter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ethicals7s/ethicals7s-redirect-hunter/issues"
+  },
+  "homepage": "https://github.com/ethicals7s/ethicals7s-redirect-hunter#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "yargs": "^17.7.2"
+  }
+}
