@@ -14,7 +14,8 @@ Install dependencies via npm:
 textnpm install axios yargs
 Usage
 
-Create or update urls.txt with one URL per line (use safe, ethical tests only, e.g.):texthttps://www.google.com/url?q=https://evil.com
+Create or update urls.txt with one URL per line (use safe, ethical tests only, e.g.):
+https://www.google.com/url?q=https://evil.com
 https://example.com
 https://www.koni-store.ru/bitrix/redirect.php?event1=&event2=&event3=&goto=https://google.com
 Run the scanner:textnode index.js scan
