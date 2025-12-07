@@ -1,6 +1,6 @@
 # EthicalS7s Redirect Hunter
 
-A Node.js CLI tool to ethically test for open redirect vulns. Built with Grok/Copilot—stronger with async scans.
+A Node.js CLI tool to ethically test for open redirect vulns. Built with Grok/Copilot—stronger with async scans than basic Python.
 
 ## Install
 npm install axios yargs
