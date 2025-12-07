@@ -51,3 +51,12 @@ yargs.command('scan', 'Scan for open redirects', {
 })
   .help()
   .argv;
+// Rate limit and JSON export
+const results = [];
+for (const url of urls) {
+  const vulnerable = await checkForOpenRedirect(url);
+  results.push({ url, status: vulnerable ? 'VULNERABLE' : 'SAFE' });
+  console.log(`${url} is ${vulnerable ? 'VULNERABLE' : 'SAFE'}.`);
+  await new Promise(resolve => setTimeout(resolve, 1000)); // 1 sec delay
+}
+fs.writeFileSync('results.json', JSON.stringify(results, null, 2));
